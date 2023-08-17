@@ -19,8 +19,8 @@
 }
 
 .main-header__title--orange {
-    color: var(--orange);
     color: orange;
+    color: var(--orange);
     font-size:60px;
 }
 
