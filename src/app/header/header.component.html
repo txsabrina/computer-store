@@ -6,13 +6,13 @@
     <nav class="main-header__menu">
         <ul>
             <li>
-                <a>Produtos</a>
+                <a routerLink="produtos">Produtos</a>
             </li>
             <li>
-                <a>
+                <a routerLink="carrinho">
                     <i class="fa-solid fa-cart-shopping"></i>
                     Carrinho
-                    <span class="badge-carrinho"></span>
+                    <span class="badge-carrinho">{{ service.obtemCarrinho().length}}</span>
                 </a>
             </li>
             <li>
