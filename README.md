@@ -1,27 +1,16 @@
 # ComputerStore
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
+Este repositório contém o código-fonte e os recursos relacionados ao projeto de prática em Angular desenvolvido como parte da formação de Angular oferecida pela Capgemini através do programa "START". O objetivo principal do projeto é aplicar e aprimorar os conhecimentos adquiridos durante a formação, criando uma interface dinâmica para uma loja de eletrônicos.
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Interface Dinâmica da Loja: O projeto consiste em uma interface interativa de uma loja de eletrônicos, onde os usuários podem explorar uma ampla variedade de produtos eletrônicos disponíveis.
 
-## Code scaffolding
+Filtragem de Produtos: Os usuários têm a capacidade de filtrar os produtos com base em seus nomes.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Gerenciamento de Carrinho: a funcionalidade de carrinho de compras foi implementada, permitindo que os usuários adicionem produtos de sua escolha ao carrinho e, se desejado, removam itens.
 
-## Build
+Página de Contato Interativa: Além da seção de compras, o projeto inclui uma página de contato interativa. A página de contato possui um formulário iterativo que permitem aos usuários entrar em contato ou deixar uma mensagem.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Sinta-se à vontade para explorar o projeto, experimentar suas funcionalidades e fornecer comentários. 
