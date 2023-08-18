@@ -10,7 +10,7 @@ import { ProdutosService } from 'src/app/produtos.service';
   templateUrl: './detalhes-produto.component.html',
   styleUrls: ['./detalhes-produto.component.css']
 })
-export class DetalhesProdutoComponent {
+export class DetalhesProdutoComponent implements OnInit {
   produto: IProduto | undefined;
   quantidade = 1;
   

@@ -7,7 +7,9 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NaoEncontradaComponent } from './nao-encontrada/nao-encontrada.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSnackBarModule } from '@angular/material/snack-bar'
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { BarraPesquisaComponent } from './barra-pesquisa/barra-pesquisa.component'
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -16,12 +18,14 @@ import { MatSnackBarModule } from '@angular/material/snack-bar'
     HeaderComponent,
     FooterComponent,
     NaoEncontradaComponent,
+    BarraPesquisaComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

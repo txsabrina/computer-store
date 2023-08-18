@@ -1,6 +1,6 @@
 <header class="main-header">
     <h1 class="main-header__title">
-        <span class="main-header__title--blue">Computer</span><span class="main-header__title--orange"> Store</span>
+        <span class="main-header__title--blue">Computer</span><span class="main-header__title--orange">Store</span>
     </h1>
     <div class="container-menu"></div>
     <nav class="main-header__menu">
@@ -15,25 +15,12 @@
                     <span class="badge-carrinho">{{ service.obtemCarrinho().length}}</span>
                 </a>
             </li>
-            <li>
-                <a>Contato</a>
-            </li>
-            <li>
-                <a><i class="fa-brands fa-facebook-f"></i></a>
-            </li>
-            <li>
-                <a><i class="fa-brands fa-instagram"></i></a>
-            </li>
-            <li>
-                <a><i class="fa-brands fa-twitter"></i></a>
-            </li>
-            <li>
-                <a><i class="fa-brands fa-linkedin-in"></i></a>
-            </li>
+            <li><a routerLink="contato">Contato</a></li>
+            <li><a><i class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a><i class="fa-brands fa-linkedin-in"></i></a></li>
         </ul>
     </nav>
-    <form class="search-form">
-        <input type="text">
-        <button><i class="fa-solid fa-magnifying-glass"></i></button>
-    </form>
+    <app-barra-pesquisa></app-barra-pesquisa>
 </header>
